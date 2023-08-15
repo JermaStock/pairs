@@ -39,6 +39,16 @@ img {
   flex-wrap: nowrap !important;
 }
 
+.custom-form {
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+  .custom-form {
+    width: 100%;
+  }
+}
+
 .timer {
   position: fixed;
   z-index: 99999;

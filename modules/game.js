@@ -32,7 +32,7 @@ export default function startGame(
   for (let i = 1; i <= maxPairs; i++) {
     cardsNumberArray.push(i, i);
     if (gameMode) {
-      cardsImgArray.push(`/img/${i}.jpg`);
+      cardsImgArray.push(`./img/${i}.jpg`);
     }
   }
 

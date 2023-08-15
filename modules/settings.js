@@ -76,8 +76,7 @@ export default function createGameSettings(container) {
 
   wrapper.classList.add('d-flex', 'justify-content-center');
   wrapper.style.width = '100%';
-  form.classList.add('form', 'text-center');
-  form.style.width = '50%';
+  form.classList.add('form', 'custom-form', 'text-center');
   inputCheckWrapper.classList.add('form-check', 'form-switch');
   inputCheckWrapper.style.paddingLeft = '1rem';
   inputCheckWrapper.style.textAlign = 'left';

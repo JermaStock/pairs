@@ -1,1 +1,1 @@
-pages: https://jermastock.github.io/cardgame/
+pages: https://jermastock.github.io/pairs/

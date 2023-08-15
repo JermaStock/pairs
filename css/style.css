@@ -259,6 +259,18 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.abs {
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+  transform: translate(-50%, -50%);
+}
+
 
 .custom-card {
   position: relative;
@@ -296,7 +308,8 @@ input[type=number] {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: gray;
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   line-height: 300px;
   color: #03446A;
   text-align: center;
